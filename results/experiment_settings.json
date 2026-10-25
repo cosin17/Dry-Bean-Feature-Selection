@@ -1,0 +1,101 @@
+{
+  "run_id": "20261025_183252_969572",
+  "status": "complete",
+  "seed": 20261025,
+  "folds": 5,
+  "feature_counts": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "f1_tolerance": 0.01,
+  "fixed_parameters": {
+    "LR_C": 1.0,
+    "KNN_neighbors": 5,
+    "RF_trees": 100
+  },
+  "random_subset_seeds": [
+    1,
+    2,
+    3
+  ],
+  "selected_counts": {
+    "LR": 16,
+    "KNN": 16
+  },
+  "test_used_for_selection": false,
+  "data_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+  "raw_rows": 13611,
+  "clean_rows": 13543,
+  "development_rows": 10834,
+  "test_rows": 2709,
+  "validation_fits": 85,
+  "test_models": 6,
+  "selected_features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "jaccard_scores": {
+    "4": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "8": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "12": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "elapsed_seconds": 61.81335950001085,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "reproduce": "在项目目录执行：.\\.venv\\Scripts\\python.exe train.py；参数保持本文件顶部的固定值。"
+}
