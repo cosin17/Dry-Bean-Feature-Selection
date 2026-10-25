@@ -1,0 +1,163 @@
+[20261025_134709_874582] 开始实验，seed=20261025，5折；LR的C=1，KNN邻居数=5，RF树数=100
+[20261025_134709_874582] LR， 4个特征，5折宏F1：0.7986
+[20261025_134709_874582] LR， 8个特征，5折宏F1：0.9208
+[20261025_134709_874582] LR，12个特征，5折宏F1：0.9225
+[20261025_134709_874582] LR，16个特征，5折宏F1：0.9352
+[20261025_134709_874582] KNN， 4个特征，5折宏F1：0.8126
+[20261025_134709_874582] KNN， 8个特征，5折宏F1：0.9186
+[20261025_134709_874582] KNN，12个特征，5折宏F1：0.9122
+[20261025_134709_874582] KNN，16个特征，5折宏F1：0.9321
+[20261025_134709_874582] 随机对照：4个特征，子集种子1，5折完成
+[20261025_134709_874582] 随机对照：4个特征，子集种子2，5折完成
+[20261025_134709_874582] 随机对照：4个特征，子集种子3，5折完成
+[20261025_134709_874582] 随机对照：8个特征，子集种子1，5折完成
+[20261025_134709_874582] 随机对照：8个特征，子集种子2，5折完成
+[20261025_134709_874582] 随机对照：8个特征，子集种子3，5折完成
+[20261025_134709_874582] 随机对照：12个特征，子集种子1，5折完成
+[20261025_134709_874582] 随机对照：12个特征，子集种子2，5折完成
+[20261025_134709_874582] 随机对照：12个特征，子集种子3，5折完成
+[20261025_134709_874582] 测试完成：LR_full，16个特征
+[20261025_134709_874582] 测试完成：LR_selected，16个特征
+[20261025_134709_874582] 测试完成：KNN_full，16个特征
+[20261025_134709_874582] 测试完成：KNN_selected，16个特征
+[20261025_134709_874582] 测试完成：RF，16个特征
+[20261025_134709_874582] 测试完成：Dummy，16个特征
+[20261025_134709_874582] 本次完成：85次验证拟合，6个测试方案，耗时29.3秒
+[20261025] 开始实验，seed=20261025，5折；LR的C=1，KNN邻居数=5，RF树数=100
+[20261025] LR， 4个特征，5折宏F1：0.7986
+[20261025] LR， 8个特征，5折宏F1：0.9208
+[20261025] LR，12个特征，5折宏F1：0.9225
+[20261025] LR，16个特征，5折宏F1：0.9352
+[20261025] KNN， 4个特征，5折宏F1：0.8126
+[20261025] KNN， 8个特征，5折宏F1：0.9186
+[20261025] KNN，12个特征，5折宏F1：0.9122
+[20261025] KNN，16个特征，5折宏F1：0.9321
+[20261025] 随机对照：4个特征，子集种子1，5折完成
+[20261025] 随机对照：4个特征，子集种子2，5折完成
+[20261025] 随机对照：4个特征，子集种子3，5折完成
+[20261025] 随机对照：8个特征，子集种子1，5折完成
+[20261025] 随机对照：8个特征，子集种子2，5折完成
+[20261025] 随机对照：8个特征，子集种子3，5折完成
+[20261025] 随机对照：12个特征，子集种子1，5折完成
+[20261025] 随机对照：12个特征，子集种子2，5折完成
+[20261025] 随机对照：12个特征，子集种子3，5折完成
+[20261025] 测试完成：LR_full，16个特征
+[20261025] 测试完成：LR_selected，16个特征
+[20261025] 测试完成：KNN_full，16个特征
+[20261025] 测试完成：KNN_selected，16个特征
+[20261025] 测试完成：RF，16个特征
+[20261025] 测试完成：Dummy，16个特征
+[20261025] 本次完成：85次验证拟合，6个测试方案，耗时30.1秒
+[20261025_183252_969572] 开始实验 20261025_183252_969572，seed=20261025，5折；LR的C=1，KNN邻居数=5，RF树数=100
+[20261025_183252_969572] 训练进度中Val表示验证集；loss是预测概率的交叉熵，越小越好。测试集最后才评价。
+[20261025_183252_969572] Model: LR , Features:  4, Fold: 1/5 | Train_acc: 80.0%, Train_loss: 0.579, Val_acc: 80.5%, Val_loss: 0.573, Val_F1: 0.8047
+[20261025_183252_969572] Model: LR , Features:  4, Fold: 2/5 | Train_acc: 79.9%, Train_loss: 0.576, Val_acc: 80.9%, Val_loss: 0.576, Val_F1: 0.8058
+[20261025_183252_969572] Model: LR , Features:  4, Fold: 3/5 | Train_acc: 80.7%, Train_loss: 0.567, Val_acc: 78.3%, Val_loss: 0.606, Val_F1: 0.7773
+[20261025_183252_969572] Model: LR , Features:  4, Fold: 4/5 | Train_acc: 80.2%, Train_loss: 0.579, Val_acc: 79.5%, Val_loss: 0.571, Val_F1: 0.7958
+[20261025_183252_969572] Model: LR , Features:  4, Fold: 5/5 | Train_acc: 79.8%, Train_loss: 0.581, Val_acc: 81.3%, Val_loss: 0.564, Val_F1: 0.8095
+[20261025_183252_969572] LR， 4个特征，5折宏F1：0.7986
+[20261025_183252_969572] Model: LR , Features:  8, Fold: 1/5 | Train_acc: 91.0%, Train_loss: 0.251, Val_acc: 90.8%, Val_loss: 0.259, Val_F1: 0.9189
+[20261025_183252_969572] Model: LR , Features:  8, Fold: 2/5 | Train_acc: 90.8%, Train_loss: 0.255, Val_acc: 91.3%, Val_loss: 0.240, Val_F1: 0.9222
+[20261025_183252_969572] Model: LR , Features:  8, Fold: 3/5 | Train_acc: 91.1%, Train_loss: 0.246, Val_acc: 90.3%, Val_loss: 0.273, Val_F1: 0.9160
+[20261025_183252_969572] Model: LR , Features:  8, Fold: 4/5 | Train_acc: 91.0%, Train_loss: 0.252, Val_acc: 90.5%, Val_loss: 0.251, Val_F1: 0.9196
+[20261025_183252_969572] Model: LR , Features:  8, Fold: 5/5 | Train_acc: 90.9%, Train_loss: 0.254, Val_acc: 91.5%, Val_loss: 0.245, Val_F1: 0.9273
+[20261025_183252_969572] LR， 8个特征，5折宏F1：0.9208
+[20261025_183252_969572] Model: LR , Features: 12, Fold: 1/5 | Train_acc: 91.1%, Train_loss: 0.246, Val_acc: 91.0%, Val_loss: 0.256, Val_F1: 0.9232
+[20261025_183252_969572] Model: LR , Features: 12, Fold: 2/5 | Train_acc: 90.9%, Train_loss: 0.251, Val_acc: 91.5%, Val_loss: 0.235, Val_F1: 0.9255
+[20261025_183252_969572] Model: LR , Features: 12, Fold: 3/5 | Train_acc: 91.2%, Train_loss: 0.243, Val_acc: 90.4%, Val_loss: 0.269, Val_F1: 0.9174
+[20261025_183252_969572] Model: LR , Features: 12, Fold: 4/5 | Train_acc: 91.1%, Train_loss: 0.248, Val_acc: 90.5%, Val_loss: 0.249, Val_F1: 0.9192
+[20261025_183252_969572] Model: LR , Features: 12, Fold: 5/5 | Train_acc: 90.9%, Train_loss: 0.251, Val_acc: 91.5%, Val_loss: 0.242, Val_F1: 0.9274
+[20261025_183252_969572] LR，12个特征，5折宏F1：0.9225
+[20261025_183252_969572] Model: LR , Features: 16, Fold: 1/5 | Train_acc: 92.4%, Train_loss: 0.214, Val_acc: 92.7%, Val_loss: 0.215, Val_F1: 0.9414
+[20261025_183252_969572] Model: LR , Features: 16, Fold: 2/5 | Train_acc: 92.2%, Train_loss: 0.210, Val_acc: 92.9%, Val_loss: 0.227, Val_F1: 0.9399
+[20261025_183252_969572] Model: LR , Features: 16, Fold: 3/5 | Train_acc: 92.5%, Train_loss: 0.211, Val_acc: 91.8%, Val_loss: 0.229, Val_F1: 0.9289
+[20261025_183252_969572] Model: LR , Features: 16, Fold: 4/5 | Train_acc: 92.7%, Train_loss: 0.215, Val_acc: 92.1%, Val_loss: 0.215, Val_F1: 0.9323
+[20261025_183252_969572] Model: LR , Features: 16, Fold: 5/5 | Train_acc: 92.6%, Train_loss: 0.216, Val_acc: 92.2%, Val_loss: 0.209, Val_F1: 0.9333
+[20261025_183252_969572] LR，16个特征，5折宏F1：0.9352
+[20261025_183252_969572] Model: KNN, Features:  4, Fold: 1/5 | Train_acc: 85.7%, Train_loss: 0.292, Val_acc: 81.7%, Val_loss: 2.362, Val_F1: 0.8161
+[20261025_183252_969572] Model: KNN, Features:  4, Fold: 2/5 | Train_acc: 85.8%, Train_loss: 0.290, Val_acc: 82.0%, Val_loss: 2.184, Val_F1: 0.8183
+[20261025_183252_969572] Model: KNN, Features:  4, Fold: 3/5 | Train_acc: 86.0%, Train_loss: 0.289, Val_acc: 80.2%, Val_loss: 2.401, Val_F1: 0.8005
+[20261025_183252_969572] Model: KNN, Features:  4, Fold: 4/5 | Train_acc: 85.9%, Train_loss: 0.290, Val_acc: 81.4%, Val_loss: 2.421, Val_F1: 0.8128
+[20261025_183252_969572] Model: KNN, Features:  4, Fold: 5/5 | Train_acc: 86.3%, Train_loss: 0.286, Val_acc: 81.6%, Val_loss: 2.532, Val_F1: 0.8152
+[20261025_183252_969572] KNN， 4个特征，5折宏F1：0.8126
+[20261025_183252_969572] Model: KNN, Features:  8, Fold: 1/5 | Train_acc: 92.8%, Train_loss: 0.150, Val_acc: 90.2%, Val_loss: 1.192, Val_F1: 0.9139
+[20261025_183252_969572] Model: KNN, Features:  8, Fold: 2/5 | Train_acc: 92.9%, Train_loss: 0.152, Val_acc: 91.1%, Val_loss: 1.116, Val_F1: 0.9195
+[20261025_183252_969572] Model: KNN, Features:  8, Fold: 3/5 | Train_acc: 92.9%, Train_loss: 0.148, Val_acc: 90.8%, Val_loss: 1.379, Val_F1: 0.9171
+[20261025_183252_969572] Model: KNN, Features:  8, Fold: 4/5 | Train_acc: 93.0%, Train_loss: 0.150, Val_acc: 91.0%, Val_loss: 1.174, Val_F1: 0.9213
+[20261025_183252_969572] Model: KNN, Features:  8, Fold: 5/5 | Train_acc: 93.2%, Train_loss: 0.147, Val_acc: 90.7%, Val_loss: 1.395, Val_F1: 0.9211
+[20261025_183252_969572] KNN， 8个特征，5折宏F1：0.9186
+[20261025_183252_969572] Model: KNN, Features: 12, Fold: 1/5 | Train_acc: 92.5%, Train_loss: 0.154, Val_acc: 90.0%, Val_loss: 1.228, Val_F1: 0.9093
+[20261025_183252_969572] Model: KNN, Features: 12, Fold: 2/5 | Train_acc: 92.4%, Train_loss: 0.157, Val_acc: 90.8%, Val_loss: 1.220, Val_F1: 0.9148
+[20261025_183252_969572] Model: KNN, Features: 12, Fold: 3/5 | Train_acc: 92.7%, Train_loss: 0.153, Val_acc: 90.0%, Val_loss: 1.392, Val_F1: 0.9100
+[20261025_183252_969572] Model: KNN, Features: 12, Fold: 4/5 | Train_acc: 92.5%, Train_loss: 0.153, Val_acc: 89.8%, Val_loss: 1.248, Val_F1: 0.9096
+[20261025_183252_969572] Model: KNN, Features: 12, Fold: 5/5 | Train_acc: 92.6%, Train_loss: 0.154, Val_acc: 90.4%, Val_loss: 1.305, Val_F1: 0.9171
+[20261025_183252_969572] KNN，12个特征，5折宏F1：0.9122
+[20261025_183252_969572] Model: KNN, Features: 16, Fold: 1/5 | Train_acc: 94.0%, Train_loss: 0.126, Val_acc: 91.6%, Val_loss: 0.955, Val_F1: 0.9308
+[20261025_183252_969572] Model: KNN, Features: 16, Fold: 2/5 | Train_acc: 94.2%, Train_loss: 0.127, Val_acc: 91.9%, Val_loss: 0.857, Val_F1: 0.9328
+[20261025_183252_969572] Model: KNN, Features: 16, Fold: 3/5 | Train_acc: 94.1%, Train_loss: 0.125, Val_acc: 91.9%, Val_loss: 1.019, Val_F1: 0.9310
+[20261025_183252_969572] Model: KNN, Features: 16, Fold: 4/5 | Train_acc: 94.1%, Train_loss: 0.123, Val_acc: 91.8%, Val_loss: 0.964, Val_F1: 0.9310
+[20261025_183252_969572] Model: KNN, Features: 16, Fold: 5/5 | Train_acc: 93.9%, Train_loss: 0.126, Val_acc: 92.2%, Val_loss: 1.045, Val_F1: 0.9350
+[20261025_183252_969572] KNN，16个特征，5折宏F1：0.9321
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  4, Fold: 1/5 | Train_acc: 91.7%, Train_loss: 0.171, Val_acc: 88.7%, Val_loss: 1.447, Val_F1: 0.8939
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  4, Fold: 2/5 | Train_acc: 91.8%, Train_loss: 0.174, Val_acc: 89.7%, Val_loss: 1.228, Val_F1: 0.9050
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  4, Fold: 3/5 | Train_acc: 92.0%, Train_loss: 0.168, Val_acc: 89.1%, Val_loss: 1.730, Val_F1: 0.8968
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  4, Fold: 4/5 | Train_acc: 91.9%, Train_loss: 0.171, Val_acc: 88.8%, Val_loss: 1.380, Val_F1: 0.8938
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  4, Fold: 5/5 | Train_acc: 91.7%, Train_loss: 0.174, Val_acc: 89.3%, Val_loss: 1.514, Val_F1: 0.9025
+[20261025_183252_969572] 随机对照：4个特征，子集种子1，5折完成
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  4, Fold: 1/5 | Train_acc: 92.6%, Train_loss: 0.150, Val_acc: 90.5%, Val_loss: 1.362, Val_F1: 0.9161
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  4, Fold: 2/5 | Train_acc: 92.8%, Train_loss: 0.150, Val_acc: 90.7%, Val_loss: 1.167, Val_F1: 0.9175
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  4, Fold: 3/5 | Train_acc: 93.0%, Train_loss: 0.146, Val_acc: 90.7%, Val_loss: 1.334, Val_F1: 0.9169
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  4, Fold: 4/5 | Train_acc: 93.0%, Train_loss: 0.147, Val_acc: 90.6%, Val_loss: 1.268, Val_F1: 0.9181
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  4, Fold: 5/5 | Train_acc: 93.2%, Train_loss: 0.147, Val_acc: 90.5%, Val_loss: 1.234, Val_F1: 0.9171
+[20261025_183252_969572] 随机对照：4个特征，子集种子2，5折完成
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  4, Fold: 1/5 | Train_acc: 93.1%, Train_loss: 0.148, Val_acc: 91.2%, Val_loss: 1.327, Val_F1: 0.9222
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  4, Fold: 2/5 | Train_acc: 92.9%, Train_loss: 0.150, Val_acc: 91.0%, Val_loss: 1.249, Val_F1: 0.9188
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  4, Fold: 3/5 | Train_acc: 93.0%, Train_loss: 0.148, Val_acc: 90.2%, Val_loss: 1.147, Val_F1: 0.9135
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  4, Fold: 4/5 | Train_acc: 92.9%, Train_loss: 0.148, Val_acc: 90.8%, Val_loss: 1.233, Val_F1: 0.9190
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  4, Fold: 5/5 | Train_acc: 92.8%, Train_loss: 0.150, Val_acc: 90.5%, Val_loss: 1.238, Val_F1: 0.9172
+[20261025_183252_969572] 随机对照：4个特征，子集种子3，5折完成
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  8, Fold: 1/5 | Train_acc: 91.8%, Train_loss: 0.171, Val_acc: 88.0%, Val_loss: 1.357, Val_F1: 0.8880
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  8, Fold: 2/5 | Train_acc: 91.9%, Train_loss: 0.174, Val_acc: 89.1%, Val_loss: 1.261, Val_F1: 0.8992
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  8, Fold: 3/5 | Train_acc: 92.2%, Train_loss: 0.168, Val_acc: 88.2%, Val_loss: 1.482, Val_F1: 0.8893
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  8, Fold: 4/5 | Train_acc: 91.6%, Train_loss: 0.174, Val_acc: 89.4%, Val_loss: 1.361, Val_F1: 0.9022
+[20261025_183252_969572] Model: KNN, Random: 1, Features:  8, Fold: 5/5 | Train_acc: 92.0%, Train_loss: 0.174, Val_acc: 89.8%, Val_loss: 1.363, Val_F1: 0.9042
+[20261025_183252_969572] 随机对照：8个特征，子集种子1，5折完成
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  8, Fold: 1/5 | Train_acc: 93.0%, Train_loss: 0.148, Val_acc: 89.9%, Val_loss: 1.243, Val_F1: 0.9084
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  8, Fold: 2/5 | Train_acc: 93.0%, Train_loss: 0.149, Val_acc: 91.4%, Val_loss: 1.055, Val_F1: 0.9242
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  8, Fold: 3/5 | Train_acc: 92.9%, Train_loss: 0.147, Val_acc: 90.6%, Val_loss: 1.351, Val_F1: 0.9152
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  8, Fold: 4/5 | Train_acc: 92.6%, Train_loss: 0.151, Val_acc: 91.1%, Val_loss: 1.074, Val_F1: 0.9199
+[20261025_183252_969572] Model: KNN, Random: 2, Features:  8, Fold: 5/5 | Train_acc: 93.0%, Train_loss: 0.148, Val_acc: 90.4%, Val_loss: 1.221, Val_F1: 0.9161
+[20261025_183252_969572] 随机对照：8个特征，子集种子2，5折完成
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  8, Fold: 1/5 | Train_acc: 92.4%, Train_loss: 0.161, Val_acc: 89.9%, Val_loss: 1.257, Val_F1: 0.9085
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  8, Fold: 2/5 | Train_acc: 92.3%, Train_loss: 0.164, Val_acc: 89.6%, Val_loss: 1.096, Val_F1: 0.9024
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  8, Fold: 3/5 | Train_acc: 92.6%, Train_loss: 0.160, Val_acc: 89.1%, Val_loss: 1.259, Val_F1: 0.9032
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  8, Fold: 4/5 | Train_acc: 92.0%, Train_loss: 0.163, Val_acc: 89.7%, Val_loss: 1.290, Val_F1: 0.9061
+[20261025_183252_969572] Model: KNN, Random: 3, Features:  8, Fold: 5/5 | Train_acc: 92.4%, Train_loss: 0.162, Val_acc: 90.0%, Val_loss: 1.189, Val_F1: 0.9106
+[20261025_183252_969572] 随机对照：8个特征，子集种子3，5折完成
+[20261025_183252_969572] Model: KNN, Random: 1, Features: 12, Fold: 1/5 | Train_acc: 92.0%, Train_loss: 0.164, Val_acc: 89.2%, Val_loss: 1.202, Val_F1: 0.8997
+[20261025_183252_969572] Model: KNN, Random: 1, Features: 12, Fold: 2/5 | Train_acc: 91.9%, Train_loss: 0.171, Val_acc: 89.7%, Val_loss: 1.002, Val_F1: 0.9032
+[20261025_183252_969572] Model: KNN, Random: 1, Features: 12, Fold: 3/5 | Train_acc: 92.1%, Train_loss: 0.166, Val_acc: 89.0%, Val_loss: 1.183, Val_F1: 0.9012
+[20261025_183252_969572] Model: KNN, Random: 1, Features: 12, Fold: 4/5 | Train_acc: 92.0%, Train_loss: 0.167, Val_acc: 89.4%, Val_loss: 1.232, Val_F1: 0.9026
+[20261025_183252_969572] Model: KNN, Random: 1, Features: 12, Fold: 5/5 | Train_acc: 92.1%, Train_loss: 0.166, Val_acc: 89.6%, Val_loss: 1.339, Val_F1: 0.9058
+[20261025_183252_969572] 随机对照：12个特征，子集种子1，5折完成
+[20261025_183252_969572] Model: KNN, Random: 2, Features: 12, Fold: 1/5 | Train_acc: 93.8%, Train_loss: 0.127, Val_acc: 91.4%, Val_loss: 1.010, Val_F1: 0.9286
+[20261025_183252_969572] Model: KNN, Random: 2, Features: 12, Fold: 2/5 | Train_acc: 93.8%, Train_loss: 0.129, Val_acc: 92.1%, Val_loss: 0.917, Val_F1: 0.9330
+[20261025_183252_969572] Model: KNN, Random: 2, Features: 12, Fold: 3/5 | Train_acc: 94.0%, Train_loss: 0.125, Val_acc: 91.6%, Val_loss: 1.114, Val_F1: 0.9272
+[20261025_183252_969572] Model: KNN, Random: 2, Features: 12, Fold: 4/5 | Train_acc: 94.2%, Train_loss: 0.125, Val_acc: 91.5%, Val_loss: 0.964, Val_F1: 0.9273
+[20261025_183252_969572] Model: KNN, Random: 2, Features: 12, Fold: 5/5 | Train_acc: 93.8%, Train_loss: 0.129, Val_acc: 91.8%, Val_loss: 1.015, Val_F1: 0.9312
+[20261025_183252_969572] 随机对照：12个特征，子集种子2，5折完成
+[20261025_183252_969572] Model: KNN, Random: 3, Features: 12, Fold: 1/5 | Train_acc: 94.0%, Train_loss: 0.127, Val_acc: 91.5%, Val_loss: 0.927, Val_F1: 0.9301
+[20261025_183252_969572] Model: KNN, Random: 3, Features: 12, Fold: 2/5 | Train_acc: 94.0%, Train_loss: 0.128, Val_acc: 91.8%, Val_loss: 0.890, Val_F1: 0.9317
+[20261025_183252_969572] Model: KNN, Random: 3, Features: 12, Fold: 3/5 | Train_acc: 94.2%, Train_loss: 0.126, Val_acc: 92.1%, Val_loss: 1.034, Val_F1: 0.9331
+[20261025_183252_969572] Model: KNN, Random: 3, Features: 12, Fold: 4/5 | Train_acc: 94.1%, Train_loss: 0.126, Val_acc: 92.1%, Val_loss: 1.088, Val_F1: 0.9347
+[20261025_183252_969572] Model: KNN, Random: 3, Features: 12, Fold: 5/5 | Train_acc: 94.1%, Train_loss: 0.127, Val_acc: 92.3%, Val_loss: 1.001, Val_F1: 0.9354
+[20261025_183252_969572] 随机对照：12个特征，子集种子3，5折完成
+[20261025_183252_969572] 方案已经确定，开始最终测试评价。测试结果不用于改变参数或特征数。
+[20261025_183252_969572] Final: LR_full      | Test_acc: 92.3%, Test_loss: 0.203, Test_F1: 0.9358
+[20261025_183252_969572] Final: LR_selected  | Test_acc: 92.3%, Test_loss: 0.203, Test_F1: 0.9358
+[20261025_183252_969572] Final: KNN_full     | Test_acc: 92.2%, Test_loss: 0.850, Test_F1: 0.9352
+[20261025_183252_969572] Final: KNN_selected | Test_acc: 92.2%, Test_loss: 0.850, Test_F1: 0.9352
+[20261025_183252_969572] Final: RF           | Test_acc: 92.7%, Test_loss: 0.241, Test_F1: 0.9395
+[20261025_183252_969572] Final: Dummy        | Test_acc: 26.2%, Test_loss: 26.610, Test_F1: 0.0593
+[20261025_183252_969572] 本次完成：85次验证拟合，6个测试方案，耗时61.8秒
+[20261025_183252_969572] 本次配置：{"run_id": "20261025_183252_969572", "status": "complete", "seed": 20261025, "folds": 5, "feature_counts": [4, 8, 12, 16], "f1_tolerance": 0.01, "fixed_parameters": {"LR_C": 1.0, "KNN_neighbors": 5, "RF_trees": 100}, "random_subset_seeds": [1, 2, 3], "selected_counts": {"LR": 16, "KNN": 16}, "test_used_for_selection": false, "data_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f", "raw_rows": 13611, "clean_rows": 13543, "development_rows": 10834, "test_rows": 2709, "validation_fits": 85, "test_models": 6, "selected_features": ["Area", "Perimeter", "MajorAxisLength", "MinorAxisLength", "AspectRation", "Eccentricity", "ConvexArea", "EquivDiameter", "Extent", "Solidity", "roundness", "Compactness", "ShapeFactor1", "ShapeFactor2", "ShapeFactor3", "ShapeFactor4"], "jaccard_scores": {"4": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "8": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "12": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]}, "elapsed_seconds": 61.81335950001085, "versions": {"numpy": "2.3.5", "pandas": "3.0.1", "scipy": "1.18.1", "scikit-learn": "1.9.1", "matplotlib": "3.11.2", "joblib": "1.6.0"}, "reproduce": "在项目目录执行：.\\.venv\\Scripts\\python.exe train.py；参数保持本文件顶部的固定值。"}
