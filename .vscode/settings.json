@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "files.encoding": "utf8",
+  "files.exclude": {
+    ".venv": true,
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true
+  }
+}
