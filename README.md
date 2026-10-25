@@ -82,7 +82,7 @@ CSV必须包含训练时同名的16个数值特征，列名会在Notebook中显�
 ## 目录与源码说明
 
 ```text
-DryBeanFeatureSelection/
+Dry-Bean-Feature-Selection/
 ├─ train.py                         训练、验证、测试、绘图、保存模型
 ├─ dry_bean_classification.ipynb     加载模型、读取本地CSV、预测和展示
 ├─ data_loader.py                   读取并校验官方ZIP数据
@@ -208,8 +208,8 @@ ShapeFactor的1～4只是指标编号，不是重要性排名；UCI页面没有�
 其他电脑先安装Python 3.12及VS Code的Python/Jupyter扩展。从GitHub下载ZIP并解压，或使用下面的命令获取项目，再创建运行环境：
 
 ```powershell
-git clone https://github.com/cosin17/DryBeanFeatureSelection.git
-cd DryBeanFeatureSelection
+git clone https://github.com/cosin17/Dry-Bean-Feature-Selection.git
+cd Dry-Bean-Feature-Selection
 py -3.12 -m venv .venv
 & .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
